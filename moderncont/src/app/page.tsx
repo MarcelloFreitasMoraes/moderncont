@@ -1,6 +1,7 @@
 import {  Container } from '@/styles/styles'
-import SpecializedServices from '@/components/Especialidades/Especialidades'
 import Banner from '@/components/Banner/Banner'
+import Card from '@/components/Card/Card'
+import { services } from '@/components/Card/mock/mock'
 
 export default function Home() {
     return (
@@ -13,7 +14,7 @@ export default function Home() {
                     unindo forças'
           textTwo='sua empresa crescer.'
           />
-          <SpecializedServices />
+        <Card data={services} title={'Somos especializados em'} />
         </Container>
     )
 }

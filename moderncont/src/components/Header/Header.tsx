@@ -17,9 +17,9 @@ import Link from 'next/link'
 
 const pages = [
   // { name: 'Inicio', url: '/' },
-  { name: 'Especialidades', url: '/especialidades' },
-  { name: 'Plano e Serviços', url: '/plano-servicos' },
-  { name: 'Contatos', url: '/contatos' }
+  // { name: 'Especialidades', url: '/especialidades' },
+  { name: 'Plano e Serviços', url: '/planos' },
+  { name: 'Contatos', url: '/contato' }
 ]
 
 function Header() {
