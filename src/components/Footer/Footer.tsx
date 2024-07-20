@@ -12,13 +12,13 @@ const Footer: React.FC = () => {
             <Typography color="#FFF" fontWeight={400}>
                 <BoxIcons>
                     <Facebook
-                        sx={{ mr: 1 }}
+                        sx={{ mr: 1, cursor: 'pointer' }}
                         onClick={() =>
                             push('https://www.facebook.com/MODERNCONT')
                         }
                     />
                     <Instagram
-                        sx={{ mr: 1 }}
+                        sx={{ mr: 1, cursor: 'pointer' }}
                         onClick={() =>
                             push(
                                 'https://www.instagram.com/moderncontcontabil/'
