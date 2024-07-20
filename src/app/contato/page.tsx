@@ -19,8 +19,8 @@ const Contato: React.FC = () => {
           <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginBottom: 2 }}>
             <LocationOn sx={{ fontSize: 40, marginBottom: 1 }} />
             <Typography variant="body1" gutterBottom>
-              Av. Dr. Arnaldo Godoy de Souza, 1685<br />
-              Tubalina - Uberlândia - MG
+              R.Dr. Alburquerque Lins, 30 - Sala 72<br />
+              Centro de Santo André - SP
             </Typography>
           </Box>
           <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginBottom: 2 }}>
@@ -32,7 +32,8 @@ const Contato: React.FC = () => {
           <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
             <Phone sx={{ fontSize: 40, marginBottom: 1 }} />
             <Typography variant="body1" gutterBottom>Ligue-nos</Typography>
-            <Typography variant="h6">(34) 3210-5992</Typography>
+            <Typography variant="h6">(11) 4455-0027</Typography>
+            <Typography variant="h6">(11) 9.4302-0607</Typography>
           </Box>
         </Grid>
         <Grid item xs={12} md={6}>

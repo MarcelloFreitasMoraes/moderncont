@@ -38,7 +38,7 @@ const ServiceCard = ({
 )
 
 const Card = ({data ,title}: {data: any[], title: string}) => (
-    <Container sx={{ marginTop: 4 }}>
+    <Container sx={{ marginTop: 4, position: 'relative', zIndex: 1 }}>
         <TypographyComponent
             variant="h2"
             component="h2"
