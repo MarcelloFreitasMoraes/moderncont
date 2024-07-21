@@ -42,7 +42,7 @@ function Header() {
             <Image src={bannerModerncont} alt={'logo'} width={160} height={65} />
             </Link>
           </Box>
-          <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
+          <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' }, justifyContent: { xs: 'flex-end', md: 'none' } }}>
             <IconButton
               size="large"
               aria-label="account of current user"
@@ -80,8 +80,6 @@ function Header() {
               ))}
             </Menu>
           </Box>
-          <AdbIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} />
-
           <Box
             sx={{
               flexGrow: 1,

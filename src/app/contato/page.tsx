@@ -29,7 +29,7 @@ const Contato: React.FC = () => {
               Seg-Sex 09:00h - 18:00h<br />
             </Typography>
           </Box>
-          <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+          <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }} mb={1}>
             <Phone sx={{ fontSize: 40, marginBottom: 1 }} />
             <Typography variant="body1" gutterBottom>Ligue-nos</Typography>
             <Typography variant="h6">(11) 4455-0027</Typography>
@@ -46,7 +46,7 @@ const Contato: React.FC = () => {
               allowFullScreen={false}
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-            ></iframe>
+            />
           </Box>
         </Grid>
       </Grid>

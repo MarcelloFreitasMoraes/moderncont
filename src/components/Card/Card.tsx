@@ -43,7 +43,7 @@ const Card = ({data ,title}: {data: any[], title: string}) => (
             variant="h2"
             component="h2"
             fontWeight={900}
-            sx={{ textAlign: 'center', marginBottom: 4}}
+            sx={{ textAlign: 'center', marginBottom: 4, fontSize:{ xs: '1.5rem', sm: '3.75rem'}}}
         >
             {title}
         </TypographyComponent>
