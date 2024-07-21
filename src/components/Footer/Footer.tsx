@@ -10,7 +10,7 @@ const Footer: React.FC = () => {
     return (
         <>
             <StyledFooter container spacing={3}>
-                <Grid item xs={12} sm={6} md={3} paddingTop={'0 !important'}>
+                <Grid item xs={12} sm={6} md={3}>
                     <Typography
                         color="#FFF"
                         fontWeight={400}

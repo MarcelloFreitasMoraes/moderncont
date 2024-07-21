@@ -6,14 +6,13 @@ import styled from 'styled-components'
 export const Footer = styled(Grid)`
     width: auto;
     background-color: #000;
-    height: auto;
+    height: 90px;
     display: flex;
     justify-content: center;
     align-items: center;
 
     @media screen and (max-width: 768px) {
-        height: 90px;
-        padding-top: 8px;
+        padding: 8px 0;
     }
 `
 export const BoxIcons = styled.span`
